@@ -143,9 +143,10 @@ const BusinessIntelligenceAnalytics = () => {
         </div>
       </div>
 
+      
 
       {/* Footer */}
-      {/* <div className="mt-8 pt-6 border-t border-gray-200">
+      <div className="mt-8 pt-6 border-t border-gray-200">
         <div className="flex flex-col sm:flex-row items-center justify-between space-y-2 sm:space-y-0">
           <div className="text-sm text-gray-500">
             Zadnje arzuriano: {lastUpdated.toLocaleString()}
@@ -156,7 +157,7 @@ const BusinessIntelligenceAnalytics = () => {
             <span>Next update: {new Date(lastUpdated.getTime() + 15 * 60000).toLocaleTimeString()}</span>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

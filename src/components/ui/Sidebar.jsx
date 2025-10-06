@@ -11,30 +11,30 @@ const Sidebar = () => {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
 
   const navigationItems = [
-    // {
-    //   label: 'Pregled',
-    //   path: '/executive-overview-dashboard',
-    //   icon: 'BarChart3',
-    //   description: 'Strateški uvid i KPI-ji'
-    // },
-    // {
-    //   label: 'Operacije',
-    //   path: '/operations-command-center',
-    //   icon: 'Activity',
-    //   description: 'Praćenje u realnom vremenu'
-    // },
-    // {
-    //   label: 'Analitika',
-    //   path: '/business-intelligence-analytics',
-    //   icon: 'TrendingUp',
-    //   description: 'Dubinska analiza'
-    // },
-    // {
-    //   label: 'Finansije',
-    //   path: '/financial-performance-dashboard',
-    //   icon: 'DollarSign',
-    //   description: 'Prihodi i profitabilnost'
-    // },
+    {
+      label: 'Pregled',
+      path: '/executive-overview-dashboard',
+      icon: 'BarChart3',
+      description: 'Strateški uvid i KPI-ji'
+    },
+    {
+      label: 'Operacije',
+      path: '/operations-command-center',
+      icon: 'Activity',
+      description: 'Praćenje u realnom vremenu'
+    },
+    {
+      label: 'Analitika',
+      path: '/business-intelligence-analytics',
+      icon: 'TrendingUp',
+      description: 'Dubinska analiza'
+    },
+    {
+      label: 'Finansije',
+      path: '/financial-performance-dashboard',
+      icon: 'DollarSign',
+      description: 'Prihodi i profitabilnost'
+    },
     {
       label: 'Korisnici',
       path: '/users-management',

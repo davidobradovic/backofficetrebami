@@ -40,7 +40,7 @@ const Routes = () => {
             </ProtectedRoute>
           } />
           
-          {/* <Route path="/financial-performance-dashboard" element={
+          <Route path="/financial-performance-dashboard" element={
             <ProtectedRoute>
               <div className="flex">
                 <Sidebar />
@@ -82,7 +82,7 @@ const Routes = () => {
                 </div>
               </div>
             </ProtectedRoute>
-          } /> */}
+          } />
           
           <Route path="/users-management" element={
             <ProtectedRoute>
